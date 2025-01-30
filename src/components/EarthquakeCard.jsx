@@ -22,7 +22,7 @@ const EarthquakeCard = ({ earthquake }) => {
                     </div>
                     <CardDescription className="flex items-center gap-1">
                         <MapPin className="w-4 h-4" />
-                        {earthquake.Wilayah}
+                        {earthquake.Lintang}° {earthquake.Bujur}°
                     </CardDescription>
                 </CardHeader>
                 <CardContent>
